@@ -1,0 +1,137 @@
+/* Estilos generales */
+
+html {
+    font-size: 62.50%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto-Thin';
+}
+
+p {
+    margin: 0;
+}
+
+.d-f {
+    display: flex;
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    font-weight: normal;
+    src: url('fonts/Roboto-Thin.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    font-weight: normal;
+    src: url('fonts/Roboto-Light.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    font-weight: normal;
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Estilos de componentes */
+
+.header {
+    height: 6rem;
+    background-color: antiquewhite;
+}
+
+.container {
+    padding: 4.8rem;    
+}
+
+.container-top-img {
+
+}
+
+.container-top-img-container {
+    width: 280px;    
+}
+
+.container-top-img-container img {
+    width: 100%;
+}
+
+.container-top-details {
+    padding: 0 9.6rem 0 4.8rem;
+}
+
+.container-top-details p:nth-child(1) {
+    font-family: 'Roboto-Regular';
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+
+.container-top-details p:nth-child(1)::before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: #ff0000;
+    display: inline-block;
+    margin: 0 0.6rem 0 0;
+}
+
+.container-top-details p:nth-child(2) {
+    font-size: 4rem;
+    line-height: 4.2rem;
+    margin-top: 1.2rem;
+}
+
+.container-top-details p:nth-child(3) {
+    font-family: 'Roboto-Bold';
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    opacity: 0.67;    
+    color: #302c2b;
+}
+
+.container-top-details p:nth-child(4) {
+    font-family: 'Roboto-Light';
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-top: 2.4rem;
+    font-weight: 300;
+    color: #302c2b;    
+}
+
+.container-top-details button {
+    font-family: 'Roboto-Regular';
+    margin-top: 2rem;
+    width: 13rem;
+    height: 3.4rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    opacity: 0.4;    
+    border: 0.1rem solid #302c2b;
+    border-radius: 0.4rem;
+    transition: opacity,background 0.3s;    
+}
+
+.container-top-details button:hover {
+    opacity: 1;
+    background: #302c2b;
+    color: #fff;    
+}
+
+.container-bottom {
+
+}
